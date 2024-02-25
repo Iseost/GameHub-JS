@@ -7,7 +7,7 @@
       name="description"
       content="Our awesome list of games! Everyone will find a game of there taste."
     />
-    <title>GameHub</title>
+    <title>GameHub | Cart</title>
     <link rel="stylesheet" href="../CSS/styles.css" />
   </head>
   <body>
@@ -18,10 +18,10 @@
           alt="The GameHub Logo">
     </header>
     <main id="content">
-      <h1 class="title">&nbsp;</h1>
-      <div id="gameCard">
-      </div>
-    </main>
+        <h1 class="title">Your current shoppingcart</h1>
+        <div id="gameCard">
+        </div>
+      </main>
     <footer>
       <div class="links_about">
         <a href="about.html">About us</a>
@@ -29,13 +29,13 @@
     </footer>
 
     <script type="module">
-      import { displayGame } from '../js/product.mjs';
+        import { displayCart } from '../js/cart.mjs';
+  
+        (function() {
+          displayCart();
+        })();
 
-      (function() {
-        displayGame();
-      })();
-
-    </script>
+      </script>
 
   </body>
 </html>
