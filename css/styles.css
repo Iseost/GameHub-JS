@@ -1,0 +1,82 @@
+/***Home***/
+
+body {
+    margin: auto;
+  }
+  
+  p,
+  h1,
+  h2,
+  h3,
+  hr,
+  ul,
+  ol,
+  li {
+    color: #1b203d;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /*header*/
+  
+  header,
+  footer {
+    width: auto;
+    background-color: #b6c0cb;
+  }
+  
+  header {
+    justify-content: center;
+    height: 7em;
+  }
+  
+  .GameHub_Logo {
+    height: 5em;
+    padding: 1em 50em 0em 50em;
+  }
+  
+  /*main home*/
+  
+  main {
+    background-color: white;
+  }
+  
+  .title {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2em 0;
+    margin: auto;
+  }
+  
+  .cover {
+    height: 230px;
+  }
+  
+  /*Games*/
+  
+  .small_title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  /**JS**/
+  
+  .card {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 2em 3em;
+    padding-left: 3em;
+    align-items: center;
+  }
+
+  button {
+    margin: 1em;
+  }
+
+  #cart {
+    display: flex;
+  }
+  
